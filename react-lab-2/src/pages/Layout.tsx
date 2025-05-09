@@ -13,7 +13,7 @@ const Layout = () => {
   return (
     <main
       className={cn([
-        isDark ? "bg-foreground" : "bg-muted",
+        isDark ? "bg-foreground" : "bg-background",
         "grid place-items-center h-dvh",
       ])}
     >
@@ -29,7 +29,7 @@ const Layout = () => {
         </div>
         <Card
           className={cn([
-            isDark ? "bg-foreground text-white" : "bg-muted",
+            isDark ? "bg-foreground text-white" : "bg-background",
             "p-5",
           ])}
         >
